@@ -123,6 +123,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &338156623 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6915619649727307226, guid: 5ecc0d006244629478597ef83423ed86, type: 3}
+  m_PrefabInstance: {fileID: 1571968894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &338156624
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338156623}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -462981019419857548, guid: 55f0fcaca46f7e849add8bbd33600a00, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,7 +449,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 100
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -475,7 +494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085c1e8a62c1a5e47a5a682dccc5e2b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 1000
+  mouseSensitivity: 5
   playerBody: {fileID: 713615014}
 --- !u!1001 &1001608831
 PrefabInstance:
